@@ -149,4 +149,4 @@ bindsym XF86AudioPrev exec playerctl previous
 
 
 # Mute Mic
-bindsym $mod+Shift+A exec pamixer --default-source --toggle-mute && (pamixer --default-source --get-mute && notify-send "Microphone Muted" || notify-send "Microphone Unmuted")
+bindsym $mod+Shift+A exec pamixer --default-source --toggle-mute && (pamixer --default-source --get-mute && notify-send "Microphone Muted" || notify-send "Microphone Unmuted") && pkill -RTMIN+10 i3blocks

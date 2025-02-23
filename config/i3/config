@@ -4,7 +4,7 @@
 exec --no-startup-id xrandr --output DP-1 --primary --right-of HDMI-0
 
 #wallpaper
-exec --no-startup-id feh /mnt/ssd2/Wallpapers/Arcane\ Wallpapers/Arcane\ 4K\ Wallpapers/z1w5tqhjejvd1.png --bg-fill
+exec --no-startup-id feh ~/Public/Wallpapers/wallpaper.png --bg-fill
 
 # Set capslock to esc
 exec --no-startup-id setxkbmap -option caps:escape

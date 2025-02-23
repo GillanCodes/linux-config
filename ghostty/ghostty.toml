@@ -1,0 +1,7 @@
+[cursor]
+blink_rate=500
+smooth_movement = true
+thickness = 2
+style = "block"    # options: block, underline, beam
+animation = "ease"
+

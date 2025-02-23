@@ -1,7 +1,8 @@
 ## i3 Config File
 
 # Screen Display
-exec --no-startup-id xrandr --output DP-1 --primary --right-of HDMI-0
+exec --no-startup-id xrandr --output DP-1 --primary --right-of HDMI-0 --rate 75.00
+exec --no-startup-id xrandr --output HDMI-0 --rate 75.00
 
 #wallpaper
 exec --no-startup-id feh ~/Public/Wallpapers/wallpaper.png --bg-fill

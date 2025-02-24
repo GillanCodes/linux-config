@@ -4,7 +4,7 @@
 exec --no-startup-id xrandr --output DP-1 --primary --mode 1920x1080 --rate 74.97 --right-of HDMI-0
 
 #wallpaper
-exec --no-startup-id feh ~/Public/Wallpapers/wallpaper.png --bg-fill
+exec --no-startup-id feh /home/gillancodes/Pictures/Wallpapers/wallpaper.png --bg-fill
 
 # Set capslock to esc
 exec --no-startup-id setxkbmap -option caps:escape

@@ -31,10 +31,10 @@ markup=none
 
 # Window Title
 #
-[i3-focusedwindow]
-label=󰣇 =>  
-command=$SCRIPT_DIR/i3-focusedwindow/i3-focusedwindow 20
-interval=persist
+#[i3-focusedwindow]
+#label=󰣇 =>  
+#command=$SCRIPT_DIR/i3-focusedwindow/i3-focusedwindow 20
+#interval=persist
 # Volume indicator
 #
 # The first parameter sets the step (and units to display)
